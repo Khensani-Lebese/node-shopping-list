@@ -92,7 +92,7 @@ Response:
     "quantity": 2,
     "category": "Dairy"
   }
-]
+]```
 
 2. POST `/shopping-list`
 
@@ -104,13 +104,13 @@ Request:
   "name": "Bread",
   "quantity": 1,
   "category": "Bakery"
-}
+}```
 
 Response:
 
 ```{
   "message": "Item added successfully!"
-}
+}```
 
 3. PUT /shopping-list/:id
 
@@ -122,13 +122,13 @@ Request:
   "name": "Eggs",
   "quantity": 12,
   "category": "Dairy"
-}
+}```
 
 Response:
 
 ```{
   "message": "Item updated successfully!"
-}
+}```
 
 4. DELETE `/shopping-list/:id`
 
@@ -138,7 +138,7 @@ Response:
 
 ```{
   "message": "Item deleted successfully!"
-}
+}```
 
 File Structure
 
@@ -146,7 +146,7 @@ File Structure
 ├── shopping-list/
 │   └── shopping-list.json
 ├── server.js
-└── package.json
+└── package.json```
 
 # Key Files
 
