@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Milk",
+    "quantity": 2,
+    "id": 1
+  },
+  {
+    "name": "Eggs",
+    "quantity": 12,
+    "id": 2
+  }
+]
